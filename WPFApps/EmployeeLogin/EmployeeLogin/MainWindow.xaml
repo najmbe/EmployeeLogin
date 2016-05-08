@@ -1,0 +1,27 @@
+﻿<Window x:Class="EmployeeLogin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeLogin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+    <StackPanel Orientation="Horizontal" Margin="10">
+        <Label  Height="30"  Width="100" Content="User Name"></Label>
+        <TextBox Name="txtUserName" Height="30" Width="200" ></TextBox>
+        </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label  Height="30"  Width="100" Content="Password"></Label>
+ <PasswordBox Height="30" Name="pwdText" PasswordChar="*"  Width="200"></PasswordBox>
+        </StackPanel>
+        </StackPanel>
+        <Button Content="Log In" IsDefault="True" Grid.Row="1" Height="30" Click="Button_Click" Width="100"  ></Button>
+    </Grid>
+</Window>

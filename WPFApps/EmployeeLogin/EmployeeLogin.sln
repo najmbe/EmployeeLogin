@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLogin", "EmployeeLogin\EmployeeLogin.csproj", "{76134882-FA21-4B85-A038-8F4DF64D1617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLoginTests", "EmployeeLoginTests\EmployeeLoginTests.csproj", "{2E9AEA57-1E56-4CC7-A3BB-6F8FE877C737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76134882-FA21-4B85-A038-8F4DF64D1617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76134882-FA21-4B85-A038-8F4DF64D1617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76134882-FA21-4B85-A038-8F4DF64D1617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76134882-FA21-4B85-A038-8F4DF64D1617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9AEA57-1E56-4CC7-A3BB-6F8FE877C737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9AEA57-1E56-4CC7-A3BB-6F8FE877C737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9AEA57-1E56-4CC7-A3BB-6F8FE877C737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9AEA57-1E56-4CC7-A3BB-6F8FE877C737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
